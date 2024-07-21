@@ -1,0 +1,229 @@
+.mainbackground {
+    /* margin-top: 64px; */
+  background-position: center;
+  background-image: url(https://lh3.googleusercontent.com/Y72aT5W4F0APN3AKL68Xc6-DvW_8fngBP5Sp31zrv3baA4FLD9b1ZEl2xuJ7Ltkyj0bUTo_jHCHoUUR0fuhu2-g=w16383);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align the content to the right */
+}
+
+@media(max-width:768px){
+    .mainbackground {
+        /* margin-top: 56px; */
+    }
+}
+
+.main-heading {
+  color: white;
+  margin-left: 100px;
+}
+
+.main-heading h1 {
+  font-family: Lato, Arial;
+  font-weight: 400;
+  vertical-align: baseline;
+}
+@media (max-width: 768px) {
+  .main-heading {
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.second-div {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.second-text-div {
+  font-family: Arial;
+  font-size: 12pt;
+  font-weight: 400;
+  vertical-align: baseline;
+  padding: 0px 100px;
+}
+
+.second-img img {
+  width: 370px;
+}
+
+.third-div {
+  position: relative;
+  /* Adjust width as per your requirement */
+  height: 300px; /* Adjust height as per your requirement */
+  background-image: url(https://lh3.googleusercontent.com/G5MFwSzet-r8wop7jsH5YtwV3cG485nLXo3HMtQl-B8mpNtMBfp7f8xOph4Pk5sLd9BTc2U0ENg4h1uSxZvg3Wg=w16383);
+  background-size: cover;
+  background-position: center center;
+  color: white; /* Text color */
+  text-align: center; /* Align text in the center */
+  display: flex;
+  justify-content: start;
+
+  /* align-items: center; */
+}
+
+.responsive-text {
+  max-width: 50%; /* Adjust maximum width of text */
+  color: #202124;
+  font-family: Arial;
+  font-size: 15pt;
+  font-weight: 400;
+  vertical-align: baseline;
+}
+
+.fourth {
+  padding: 20px;
+}
+
+.about-us {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-us h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.placement {
+  text-align: center;
+}
+
+.placement img {
+  max-width: 100%;
+  height: auto;
+}
+
+.fifth-text {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  text-align: center;
+}
+
+.partners-img {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .partners-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+.sixth {
+    margin-top: 70px;
+}
+
+.six-div {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    /* align-items: center; Center align content */
+    padding: 0 10%; /* Adjust padding for better responsiveness */
+    gap: 20px;
+}
+
+.imgdiv img {
+    width: 100%; /* Make the image responsive */
+    max-width: 400px; /* Set a maximum width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.tetxsix {
+    width: 90%; /* Adjust width for smaller screens */
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    font-size: 1.2rem; /* Use relative font size */
+}
+
+/* Media Queries for responsiveness */
+@media (min-width: 768px) {
+    .six-div {
+        flex-direction: row; /* Arrange elements side by side on larger screens */
+    }
+
+    .imgdiv img {
+        width: 100%; /* Ensure image scales with container width */
+        max-width: 400px; /* Keep image within bounds */
+    }
+
+    .tetxsix {
+        width: 80%; /* Adjust width on medium screens */
+    }
+}
+
+@media (max-width: 767px) {
+    .tetxsix {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+
+    .six-div {
+        padding: 0 5%; /* Reduce padding on smaller screens */
+    }
+}
+
+
+.contact-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contact-info {
+    text-align: left;
+  }
+  
+  .contact-item {
+    margin-bottom: 20px;
+  }
+  
+  .contact-item h3 {
+    margin: 10px 0;
+    font-size: 1.5em; /* Increased font size for headings */
+  }
+  
+  .contact-item p {
+    font-size: 1.2em; /* Increased font size for paragraphs */
+    margin: 5px 0;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-item h3 {
+      font-size: 1.3em; /* Adjusted font size for smaller screens */
+    }
+  
+    .contact-item p {
+      font-size: 1.1em; /* Adjusted font size for smaller screens */
+    }
+  }
+  
