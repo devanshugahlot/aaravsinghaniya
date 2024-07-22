@@ -1,12 +1,25 @@
 import React from "react";
 import "./home.css";
+import img1 from "../assets/images/IMG_20240718_114921_628.jpg";
+import certificate1 from "../assets/images/cer1.jpg";
+import certificate2 from "../assets/images/cer2.jpg";
+import certificate3 from "../assets/images/cer3.jpg";
+import certificate4 from "../assets/images/cer4.png";
+import roimg from "../assets/images/rohan.jpeg";
+import ridimg from "../assets/images/ridi.jpeg";
+import sbi from "../assets/images/sbi.jpg";
+import gov from "../assets/images/gov.png";
+import bai from "../assets/images/bai.jpeg";
+import bin from "../assets/images/bin.jpeg";
+import bit from "../assets/images/bit.png";
+import cry from "../assets/images/cry.jpeg";
 const Home = () => {
   return (
     <div className="maincont">
       <div className="mainbackground">
         <div className="main-heading">
           <h1>
-            BHAVYA RAJPUT <br /> TRADING
+            Aarav Singhaniya <br /> TRADING
           </h1>
         </div>
       </div>
@@ -20,10 +33,7 @@ const Home = () => {
           </p>
         </div>
         <div className="second-img">
-          <img
-            src="https://lh4.googleusercontent.com/gsgA3ix9nVbmxQOQouucLTgJADNzEPfvtMAzBQrZFIQHS3rSFK9YZas1yqPJWOFXlyu03hrXUGLH6AxwEnadvCQ=w1280"
-            alt=""
-          />
+          <img src={gov} alt="" />
         </div>
       </div>
 
@@ -51,10 +61,7 @@ const Home = () => {
           </p>
         </section>
         <section className="placement">
-          <img
-            src="https://lh4.googleusercontent.com/jrc7Phi24MrUgYUOXGofzotQ17ZZZ1p5HWTa2pcUTN6jzMI52NIB6Ng1IB24aXrCDRvGKNYszOxk1QtAVoDouSO82swZr4vYjKbwDStM9EFxi3uBqfBnLlyD8fpCBY8RdA=w1280"
-            alt="I am Placed By DYPCET"
-          />
+          <img src={img1} alt="I am Placed By DYPCET" />
         </section>
       </div>
 
@@ -65,22 +72,10 @@ const Home = () => {
           <h2>PARTNERS</h2>
         </div>
         <div className="partners-img">
-          <img
-            src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ43-j8Lq-JyCTf96qvCOWnZDDW6VzeTZcB1lwEQ9Pe-EE6VX2P"
-            alt=""
-          />
-          <img
-            src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQuO_oaotrr1p33gFQ3g7ScHDVJS-0Ag0np28S4xuFW7F_kENXr"
-            alt=""
-          />
-          <img
-            src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRCIVi9E54VBB3ToR1rhhO4NrPoR0pYGr7t_JlGWBTQPeMAGUrk"
-            alt=""
-          />
-          <img
-            src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRj-SmQkaZLRoFfqIR_QEs5uDOmrl7U9pmNFhPcnXYxUqiFa2C2"
-            alt=""
-          />
+          <img src={bai} alt="" />
+          <img src={bin} alt="" />
+          <img src={bit} alt="" />
+          <img src={cry} alt="" />
         </div>
       </div>
 
@@ -89,31 +84,16 @@ const Home = () => {
           <h2>TRADING CERTIFICATE</h2>
         </div>
         <div className="partners-img">
-          <img
-            src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ43-j8Lq-JyCTf96qvCOWnZDDW6VzeTZcB1lwEQ9Pe-EE6VX2P"
-            alt=""
-          />
-          <img
-            src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQuO_oaotrr1p33gFQ3g7ScHDVJS-0Ag0np28S4xuFW7F_kENXr"
-            alt=""
-          />
-          <img
-            src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRCIVi9E54VBB3ToR1rhhO4NrPoR0pYGr7t_JlGWBTQPeMAGUrk"
-            alt=""
-          />
-          <img
-            src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRj-SmQkaZLRoFfqIR_QEs5uDOmrl7U9pmNFhPcnXYxUqiFa2C2"
-            alt=""
-          />
+          <img src={certificate1} alt="" />
+          <img src={certificate2} alt="" />
+          <img src={certificate3} alt="" />
+          <img src={certificate4} alt="" />
         </div>
       </div>
       <div className="sixth">
         <div className="six-div">
           <div className="imgdiv">
-            <img
-              src="https://lh6.googleusercontent.com/DNVjkJYpx318upHIT9lQaUgLeO4Le1bMdIKp5PRSzae_bxJb9M-fHlBu6WV3sojtqmAz5o6aTUVIKJhtjEb58tskuk8qeJqXux5x7Xsny9kjxDUFpcPQeeHe959ntlEYGQ=w1280"
-              alt=""
-            />
+            <img src={sbi} alt="" />
           </div>
           <div className="tetxsix">
             <p>
@@ -131,23 +111,89 @@ const Home = () => {
             </p>
           </div>
         </div>
-          </div>
-          
-          <div className="contact-container">
-      <div className="contact-info">
-        <h2>Contact Us</h2>
-        <div className="contact-item">
-          <h3>WhatsApp Business Number:</h3>
-          <p><a href="tel:+917439165548">7439165548</a></p>
+      </div>
+      <section id="testimonials">
+        <div className="testimonial-heading">
+          <h1>1000+ SATISFY CUSTOMER</h1>
         </div>
-        <div className="contact-item">
-          <h3>Office Address:</h3>
-          <p>No. G 4 & 5, Ground Floor, No.12</p>
-          <p>Richmond Road, Bangalore - 560025</p>
-          <p>Near HDFC Bank & Petrol Bunk</p>
+        <div className="testimonial-box-container">
+          <div className="testimonial-box">
+            <div className="box-top">
+              <div className="profile">
+                <div className="profile-img">
+                  <img src={roimg} />
+                </div>
+                <div className="name-user">
+                  <strong>Rohan Sharma</strong>
+                  <span>@rohan</span>
+                </div>
+              </div>
+              <div className="reviews">
+                <i className="fas fa-star" />
+                <i className="fas fa-star" />
+                <i className="fas fa-star" />
+                <i className="fas fa-star" />
+                <i className="far fa-star" />
+              </div>
+            </div>
+            <div className="client-comment">
+              <p>
+                The platform itself was intuitive and reliable, offering
+                real-time market data and seamless trade execution. This made my
+                trading experience efficient and enjoyable. Overall, I am
+                extremely satisfied and would highly recommend this trading
+                service to others looking for a dependable partner.
+              </p>
+            </div>
+          </div>
+          <div className="testimonial-box">
+            <div className="box-top">
+              <div className="profile">
+                <div className="profile-img">
+                  <img src={ridimg} />
+                </div>
+                <div className="name-user">
+                  <strong>Ridhi gupta</strong>
+                  <span>@ridhi</span>
+                </div>
+              </div>
+              <div className="reviews">
+                <i className="fas fa-star" />
+                <i className="fas fa-star" />
+                <i className="fas fa-star" />
+                <i className="fas fa-star" />
+                <i className="fas fa-star" />
+              </div>
+            </div>
+            <div className="client-comment">
+              <p>
+                I recently engaged in trading and was thoroughly impressed with
+                the experience. The customer service was top-notch, with
+                representatives who were both knowledgeable and attentive. They
+                patiently answered all my questions and provided valuable
+                insights that helped me make informed trading decisions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div className="contact-container">
+        <div className="contact-info">
+          <h2>Contact Us</h2>
+          <div className="contact-item">
+            <h3>WhatsApp Business Number:</h3>
+            <p>
+              <a href="https://wa.me/8168235174">8168235174</a>
+            </p>
+          </div>
+          <div className="contact-item">
+            <h3>Office Address:</h3>
+            <p>No. G 4 & 5, Ground Floor, No.12</p>
+            <p>Richmond Road, Bangalore - 560025</p>
+            <p>Near HDFC Bank & Petrol Bunk</p>
+          </div>
         </div>
       </div>
-    </div>
     </div>
   );
 };
